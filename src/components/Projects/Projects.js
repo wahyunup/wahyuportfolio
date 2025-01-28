@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import CaptureCloud from "../../Assets/Projects/CaptureCloud.png";
 import KTNA from "../../Assets/Projects/KTNA.png";
+import suarakuNFC from "../../Assets/Projects/suarakuNFC.jpg";
 
 function Projects() {
   return (
@@ -28,6 +29,7 @@ function Projects() {
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={KTNA}
@@ -36,6 +38,32 @@ function Projects() {
               description="KTNA Comprof is a semi-marketing inventory application developed in order to fulfill the assignment of the Practical Work course, has a sorting feature to make it easier for prospective buyers to select the products they want to look for, and stock management for admin."
               techstack ="Laravel, Cloudinary, Filament"
               ghLink="https://github.com/wahyunup/ktna-comprof"
+              // demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suarakuNFC}
+              isBlog={false}
+              OnProgress={true}
+              title="Suaraku NFC"
+              description="SuarakuNFC is a voting application that utilizes NFC technology to enhance the efficiency of the election process, equipped with a CMS and real-time monitoring features."
+              techstack ="NextJS, Typescript"
+              ghLink="https://github.com/wahyunup/suarakunfc"
+              // demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suarakuNFC}
+              isBlog={false}
+              OnProgress={true}
+              title="suaraku API"
+              description="SuarakuNFC is a voting application that utilizes NFC technology to enhance the efficiency of the election process, equipped with a CMS and real-time monitoring features."
+              techstack ="ExpressJS"
+              ghLink="https://github.com/wahyunup/suaraku_api"
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>

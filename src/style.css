@@ -741,3 +741,25 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.blinking-text {
+  animation: blink 2s infinite;
+  background-color: purple;
+  color: white;
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 4px;
+  margin: 0;
+  border-radius: 5px;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

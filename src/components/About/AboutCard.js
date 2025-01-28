@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Wahyu Nur Pambuko </span>
             from <span className="purple"> Tangerang Selatan, Indonesian.</span>
             <br />
-            Im 6th semester informatics engineering student, who is enthusiastic about web programming, especially Frontend, and also a student of Harisenin.com bootcamp.
+            Im 7th semester informatics engineering student, who is enthusiastic about web programming, especially Frontend, and also a student of Harisenin.com bootcamp.
 
             I spend every day to explore a code that I learned, especially javascript. having a person who believes in the process makes me not tired to keep learning.
 
