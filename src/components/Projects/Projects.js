@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import CaptureCloud from "../../Assets/Projects/CaptureCloud.png";
 import KTNA from "../../Assets/Projects/KTNA.png";
 import suarakuNFC from "../../Assets/Projects/suarakuNFC.jpg";
+import tjakrawala from "../../Assets/Projects/tjakrawala batik.png";
 
 function Projects() {
   return (
@@ -39,6 +40,18 @@ function Projects() {
               techstack ="Laravel, Cloudinary, Filament"
               ghLink="https://github.com/wahyunup/ktna-comprof"
               // demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tjakrawala}
+              isBlog={true}
+              title="Cakrawala Batik & Craft"
+              description="Tjakrawala Batik & Craft is a web-based e-commerce application that sells various batik products, such as clothing and handicrafts. I developed this application during my internship at Dipdop Universe Corp."
+              techstack ="Wordpress"
+              ghLink="https://tjakrawalabatik.com/"
+              // demoLink="https://tjakrawalabatik.com/"
             />
           </Col>
           
