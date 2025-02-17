@@ -12,7 +12,12 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px", alignItems:"center"}}>
+        <Row
+          style={{
+            justifyContent: "center",
+            padding: "10px",
+            alignItems: "center",
+          }}>
           <Col
             md={7}
             style={{
@@ -27,12 +32,23 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px", overflow:"hidden", height:"700px", width:"40%"}}
-            className="about-img">
-            
-            <img src={profile} alt="about"  style={{ filter: "grayscale(70%)", transition: "0.3s ease" }}  className="img-fluid" onMouseOver={(e) => e.currentTarget.style.filter = "none"}
-  onMouseOut={(e) => e.currentTarget.style.filter = "grayscale(70%)"}/>
-
+            style={{
+              paddingTop: "120px",
+              paddingBottom: "50px",
+              overflow: "hidden",
+             
+            }}
+            className="about-img w-[200px] h-[200px]">
+            <img
+              src={profile}
+              alt="about"
+              style={{ filter: "grayscale(70%)", transition: "0.3s ease" }}
+              className="img-fluid"
+              onMouseOver={(e) => (e.currentTarget.style.filter = "none")}
+              onMouseOut={(e) =>
+                (e.currentTarget.style.filter = "grayscale(70%)")
+              }
+            />
           </Col>
         </Row>
         <h1 className="project-heading">
