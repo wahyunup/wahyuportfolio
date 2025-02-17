@@ -29,7 +29,7 @@ function Projects() {
               title="TravelZone"
               description="TravelZone is a travel service application that allows users to travel easily to various destinations in Indonesia."
               techstack ="ReactJs, Tailwind"
-              ghLink="https://github.com/Kelompok-03-harisenin"
+              ghLink="https://github.com/wahyunup/TravelZone"
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>
